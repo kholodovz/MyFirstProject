@@ -1,0 +1,32 @@
+body .dflex {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+body .jc {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  font-size: 16px;
+  color: #000;
+}
+
+body .margin {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 25px;
+  margin-right: 30px;
+}
+
+body .dflex .item {
+  width: 33.33333%;
+}
